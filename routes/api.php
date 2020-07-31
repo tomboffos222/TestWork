@@ -22,3 +22,4 @@ Route::put('products/{id}','Product\ProductController@Update');
 Route::delete('products/{id}','Product\ProductController@Destroy');
 
 Route::apiResource('category','Category\CategoryController');
+Route::delete('category/{id}','Category\CategoryController@Destroy');
